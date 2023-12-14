@@ -7,6 +7,10 @@ given n as input.
 
 
 def minOperations(n):
+    """
+    Returns an integer
+    If n is impossible to achieve, return 0
+    """
     result = 0
     divisor = 2
 
