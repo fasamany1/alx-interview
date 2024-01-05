@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Method to determine if given data represents valid UTF-8 encoding
-Data set can contain multiple characters 
+Data set can contain multiple characters
 or will represent a list of integers
 """
 
