@@ -3,7 +3,7 @@
 
 
 def isprime(n):
-    # Return a prime number
+    """ Return prime number """
     for i in range(2, n):
         if n % i == 0:
             return False
@@ -11,14 +11,16 @@ def isprime(n):
 
 
 def delete_numbers(n, nums):
-    # Remove numbers - return zero
+    """ Remove numbers - return zero """
     for i in range(len(nums)):
         if nums[i] % n == 0:
             nums[i] = 0
 
 
 def isWinner(x, nums):
-    # Return player with most win rounds
+    """ Return name of player that won
+    most rounds
+    """
     nums.sort()
     winner = False
     Maria = 0
